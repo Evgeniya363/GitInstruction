@@ -21,3 +21,4 @@ git branch
 git branch lists - создание ветки lists из текущего состояния
 git checkout lists - переход на существующую ветку lists
 git checkout -b styles - создание ветки styles с последующим переходом на нее
+git branch -d styles - удаление более не нужной ветки
