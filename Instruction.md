@@ -74,5 +74,15 @@ git checkout -b styles
 Удалим ненужную ветку lists:
 git branch -d lists
 
-git merge styles - слияние ветки styles с текущей веткой
+## 5. Слияние веток
+
+Осуществим слияние ветки master с style
+
+git checkout master
+git merge styles
+
+слияние ветки styles с текущей веткой
+
+При необходимости отменить слияние применим команду:
+
 git merge --abort - отмена слияния
