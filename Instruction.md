@@ -53,11 +53,26 @@ git checkout метка
 
 git diff метка1 метка2
 
+4. Ветки
+
+Создадим ветку lists
+
+git branch lists
+
+Просмотрим все существующие ветки в нашем проекте:
+
 git branch
-git branch lists - создание ветки lists из текущего состояния
-git checkout lists - переход на существующую ветку lists
-git checkout -b styles - создание ветки styles с последующим переходом на нее
-git branch -d styles - удаление более не нужной ветки
+
+Перейдем на вновьсозданную ветку lists:
+
+git checkout lists
+
+А теперь одной командой осуществим создание ветки styles и перейдем на нее:
+
+git checkout -b styles
+
+Удалим ненужную ветку lists:
+git branch -d lists
 
 git merge styles - слияние ветки styles с текущей веткой
 git merge --abort - отмена слияния
