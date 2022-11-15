@@ -1,4 +1,4 @@
-# Краткая инструкция по командам Git
+# Краткая инструкция по работе с командам Git
 
 Для начала создадим папку и откроем ее в Visual Studio Code. Далее в терминале Выполняем команды git.
 
@@ -16,3 +16,6 @@ git log
 git log --oneline
 git log --graph
 git reflog
+
+git merge styles - слияние ветки styles с текущей веткой
+git merge --abort - отмена слияния
