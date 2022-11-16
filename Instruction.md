@@ -108,6 +108,7 @@ Cоздадим папку и откроем ее в _**Visual Studio Code**_ (V
 
 ## **_5. Слияние веток_**
 
+![gitMerge](/images/git_banner.png)
 Осуществим слияние ветки master со style:
 
 ### **git checkout master**
